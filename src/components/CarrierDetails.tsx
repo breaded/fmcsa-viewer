@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { styled, Box, Typography } from '@mui/material';
-import api from '../services/api'; // Ensure correct path
+import api from '../services/api'; // Ensure this path is correct
 import { Carrier } from '../utils/types';
 
 // Define styled components using MUI's styled utility
@@ -125,3 +125,4 @@ const CarrierDetails: React.FC = () => {
 };
 
 export default CarrierDetails;
+
